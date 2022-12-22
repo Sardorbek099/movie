@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="filter_movies">
+    <select id="select"  onchange="filterActors(this.value)">
+        <option selected disabled>Aktyorlardan birini tanlang</option>
+        <option  value="Alec Baldwin">Alec Baldwin</option>
+        <option value="Gary Oldman">Gary Oldman</option>
+        <option value="Charlie Hunnam">Charlie Hunnam</option>
+        <option value="Alec Baldwin">Alec Baldwin</option>
+        <option value="Salma Hayek">Salma Hayek</option>
+
+    
+    
+    
+    </select>
+</div>
+    <div class="bascet">
+
+    </div>
+    <div class="yearFilter">
+        <select class="forYears" onchange="addOptions()">
+            <option selected disabled>Yillardan birini tanlang</option>
+
+        </select>
+
+    </div>
+
+
+
+    <script src="movies.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
